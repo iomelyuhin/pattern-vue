@@ -1,0 +1,73 @@
+.table {
+  width: 100%;
+
+  td,
+  th {
+    text-align: center; /* Выравнивание по центру */
+    border-bottom: 1px solid $grey; /* Линия внизу ячейки */
+  }
+
+  th {
+		padding: 10px 0;
+	}
+	
+	td {
+		padding: 20px 0;
+	}
+
+	.table__user {
+		text-align: left;
+	}
+
+	.table__user-link {
+		text-decoration: none;
+	}
+
+	.table__user-name {
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+	.table__user-phone {
+		margin-top: 5px;
+		font-weight: 600;
+	}
+
+	.table__user-email {
+		margin-top: 5px;
+	}
+
+	.table__subscribe-change-btn {
+		color: $violet;
+		transition: 0.3s;
+
+		&:hover {
+			color: rgba($violet, 0.5)
+		}
+	}
+
+	.table__service {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.table__service-wrap {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.table__service-btn {
+		color: $violet;
+		margin-top: 5px;
+	}
+
+	.table__service-num {
+		margin-left: 5px;
+	}
+
+	.table__subscribe-change-btn {
+		margin-top: 5px;
+	}
+}

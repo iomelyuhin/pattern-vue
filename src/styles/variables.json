@@ -1,8 +1,11 @@
 {
-  "text-color": "#000",  
-  "bp-desktop-hd": "1800px",
-  "bp-desktop": "1200px",
-  "bp-tablets": "768px",
-  "bp-phones": "480px",
-  "bp-phones-mini": "320px"
+	"text-color": "#000",
+	"grey": "#C9C9C9",
+	"violet": "#7547DE",
+	"red": "#E64545",
+	"bp-desktop-hd": "1800px",
+	"bp-desktop": "1200px",
+	"bp-tablets": "768px",
+	"bp-phones": "480px",
+	"bp-phones-mini": "320px"
 }

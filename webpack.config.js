@@ -36,7 +36,7 @@ module.exports = (env, argv) => {
   };
 
   const files = {
-    test: /\.(png|jpe?g|gif|woff2?)$/i,
+    test: /\.(png|php|jpe?g|gif|woff2?)$/i,
     loader: "file-loader",
     options: {
       name: "[hash].[ext]"
@@ -85,7 +85,7 @@ module.exports = (env, argv) => {
 
   const config = {
     entry: {
-      main: "./src/main.js"
+      main: ["@babel/polyfill", "./src/main.js"]
     },
     output: {
       path: path.resolve(__dirname, "./dist"),
