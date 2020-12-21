@@ -36,7 +36,7 @@ module.exports = (env, argv) => {
   };
 
   const files = {
-    test: /\.(png|php|jpe?g|gif|woff2?)$/i,
+    test: /\.(png|php|jpe?g|gif|mp4|woff2?)$/i,
     loader: "file-loader",
     options: {
       name: "[hash].[ext]"
@@ -99,7 +99,8 @@ module.exports = (env, argv) => {
     resolve: {
       alias: {
         vue$: "vue/dist/vue.esm.js",
-        images: path.resolve(__dirname, "src/images")
+        images: path.resolve(__dirname, "src/images"),
+        video: path.resolve(__dirname, "src/video")
       },
       extensions: ["*", ".js", ".vue", ".json"]
     },
